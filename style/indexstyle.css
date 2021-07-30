@@ -74,3 +74,21 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 .cover img {
     width: 100%
 }
+
+/* image text intro */
+
+.cover div {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    border: turquoise solid 3px;
+}
+
+.cover-intro {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 900;
+    color: #FCA311;
+    filter: drop-shadow(2px 2px 0px #CA7D02);
+}
