@@ -31,3 +31,18 @@
 .logo img{
     width: 90px;
 }
+
+/* image */
+
+.cover {
+    width: 100%;
+    height: 100vh;
+    border: orange solid 5px;
+    background-image: url(/pictures/Quezon_City_Science_High_School.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cover img {
+    width: 100%
+}
