@@ -95,21 +95,27 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 /* section 2 */
 
 .section-dreams {
+    background-color: #14213D;
     height: 100vh;
-    border: 5px solid red;
 }
 
 .section-die {
     position: relative;
     text-align: center;
     font-size: 40px;
-    margin: 10px 0 10px 0;
+    margin: 0px 0 10px 0;
+    color: #FCA311;
 }
 
 .dreams-offer {
-    border: 5px solid orange;
     height: 80%;
     
+}
+
+.dreams-offer h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #E5E5E5;
 }
 
 .dreams-offer ul {
@@ -118,14 +124,18 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
     flex-flow: row wrap;
     align-content: space-around;
     min-height: 100%;
-    border: 5px solid blue;
 }
 
 .dreams-offer ul li {
     display: flex;
     width: 400px;
-    border: 5px solid brown;
     justify-content: space-between;
+    margin: 20px;
+    padding: 7px;
+    /* border-right: 3px solid #FCA311;
+    
+    border: 3px solid #FCA311; */
+    border-left: 3px solid #FCA311;
 }
 
 .dreams-offer ul li div {
@@ -133,9 +143,10 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
-    border: 2px solid blue;
     height:fit-content;
     font-size: 30px;
+    font-weight: 600;
+    color: #E5E5E5;
 }
 
 .dreams-offer ul li img {
