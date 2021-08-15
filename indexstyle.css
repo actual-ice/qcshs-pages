@@ -72,7 +72,7 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 }
 
 .cover img {
-    width: 100%
+    width: 100%;
 }
 
 /* image text intro */
@@ -90,4 +90,54 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
     font-weight: 900;
     color: #FCA311;
     filter: drop-shadow(2px 2px 0px #CA7D02);
+}
+
+/* section 2 */
+
+.section-dreams {
+    height: 100vh;
+    border: 5px solid red;
+}
+
+.section-die {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0 10px 0;
+}
+
+.dreams-offer {
+    border: 5px solid orange;
+    height: 80%;
+    
+}
+
+.dreams-offer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: space-around;
+    min-height: 100%;
+    border: 5px solid blue;
+}
+
+.dreams-offer ul li {
+    display: flex;
+    width: 400px;
+    border: 5px solid brown;
+    justify-content: space-between;
+}
+
+.dreams-offer ul li div {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    border: 2px solid blue;
+    height:fit-content;
+    font-size: 30px;
+}
+
+.dreams-offer ul li img {
+    width: 150px;
 }
