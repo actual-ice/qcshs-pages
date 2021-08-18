@@ -12,6 +12,10 @@ https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff
 
 /* navbar */
 
+.navbar {
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, .5));
+}
+
 .navbar ul {
     display: flex;
     height: 70px;
